@@ -31,7 +31,6 @@ import {PopupExamplePage} from './examples/PopupExamplePage';
 import {FlyoutExamplePage} from './examples/FlyoutExamplePage';
 import {ProgressViewExamplePage} from './examples/ProgressViewExamplePage';
 import {XamlExamplePage} from './examples/XamlExamplePage';
-import {TrackPlayerExamplePage} from './examples/TrackPlayerExamplePage';
 import {WindowsHelloExamplePage} from './examples/WindowsHelloExamplePage';
 import {ExpanderExamplePage} from './examples/ExpanderExamplePage';
 import {VirtualizedListExamplePage} from './examples/VirtualizedListExamplePage';
@@ -217,12 +216,6 @@ export const RNGalleryList: Array<IRNGalleryExample> = [
     component: TouchableWithoutFeedbackExamplePage,
     icon: '\uEDA4',
     type: 'Basic Input',
-  },
-  {
-    key: 'TrackPlayer',
-    component: TrackPlayerExamplePage,
-    icon: '\uEC4F',
-    type: 'Media',
   },
   {
     key: 'View',

@@ -30,8 +30,6 @@ import {WebViewExamplePage} from '../src/examples/WebViewExamplePage';
 import {SensitiveInfoExamplePage} from '../src/examples/SensitiveInfoExamplePage';
 import {ProgressViewExamplePage} from '../src/examples/ProgressViewExamplePage';
 import {XamlExamplePage} from '../src/examples/XamlExamplePage';
-// Issue: Usage of UIManager.getViewManangerConfig returning undefined
-//import {TrackPlayerExamplePage} from '../src/examples/TrackPlayerExamplePage';
 import {WindowsHelloExamplePage} from '../src/examples/WindowsHelloExamplePage';
 import {ExpanderExamplePage} from '../src/examples/ExpanderExamplePage';
 import {View} from 'react-native';
@@ -198,11 +196,6 @@ test('TouchableOpacity Example Page', () => {
   const tree = create(<TouchableOpacityExamplePage />).toJSON();
   expect(tree).toMatchSnapshot();
 });
-
-/*test('TrackPlayer Example Page', () => {
-  const tree = create(<TrackPlayerExamplePage />).toJSON();
-  expect(tree).toMatchSnapshot();
-});*/
 
 test('View Example Page', () => {
   const tree = create(<ViewExamplePage />).toJSON();
